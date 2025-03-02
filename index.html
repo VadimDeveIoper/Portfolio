@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vadim">
+    <meta name="description" content="This is my portfolio">
+    <meta name-="robots" content="index , follow">
+    <meta name="keywords" content="Vadim,porfolio,Bolotnikov">
+    <title>Vadim | Portfolio</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <script src="./src/index.js" defer></script>
+    <script src="./bot/bot.js" defer></script>
+
+</head>
+<body>
+
+    <div class="container">
+        
+      <header>
+        <nav>
+            <a href="#main-bio">Обо мне </a>
+            <a href="#sect-works">Кейсы </a>
+            <a href="#footer">Контакты</a>
+        </nav>
+      </header>
+
+      <main>
+
+        <section class="main-view">
+
+         <h2> Vadim </h2>
+
+         <div class="design-contanier">
+            <div class="design-item"></div>
+            <div class="design-item"></div>
+         </div>
+
+         <button id="slide-down">
+          <p>Поподробней</p>
+          <img src="./img/arrow-down.png" alt="">
+         </button>
+ 
+     
+ 
+        </section>
+
+        <section id="main-bio">
+
+          <div class="main-bio-img">
+            <img  src="./img/photo.png" alt="">
+            <p class="bio-title">Front-end Developer</p>
+            <p class="bio-github"><a href="">GitHub</a></p>
+            <a href=""><button class="bio-cv-download">Скачать резюме</button></a>
+          </div>
+          <div class="main-bio-content"><p class="work">Занимаюсь разработкой: <span id="element"></span></p><br>Меня зовут Вадим я Front-end разработчик. Живу в <br> России,  Ставропольский край.<br><br> Если вы хотите связаться со мной то,<br> можно сделать это через бота или по моим контактным данным ниже.</div>
+         
+          </div>
+
+        </section>
+
+        <section id="main-case">
+          <h2>Мой стэк</h2>
+
+        <div class="case-cards">
+          <div class="case-card" id="card-1"><img src="./img/html-card.png" alt="">
+          HTML5
+          </div>
+          <div class="case-card" id="card-2"><img src="./img/js-card.png" alt="">
+          JavaScript
+          </div>
+          <div class="case-card" id="card-3"><img src="./img/photo.png" alt="">
+          My beautiful face
+          </div>
+          <div class="case-card" id="card-4"><img src="./img/react-card.png" alt="">
+            REACT
+            </div>
+            <div class="case-card" id="card-5"><img src="./img/css-card.png" alt="">
+              CSS3
+              </div>
+        </div>
+
+        <div id="chart">
+
+        </div>
+       
+           
+        </section>
+
+        <div class="bot_form">
+          <input id="user_name" type="text" placeholder="Введтите ваше имя">
+          <input id="user_number" type="number" placeholder="+7(928)XXX-XX-XX">
+          <input id="user_msg" type="text" placeholder="Ваше сообщение">
+          <button id="bot_send">Отправить</button>
+        </div>
+       
+        <aside id="bot">
+          <img width="150" height="150" src="./img/bot.png" alt="">
+         </aside>
+      
+
+        <section id="sect-works">
+          <h2>Мои работы</h2>
+          <div class="works_container">
+            <div class="feedbacks">
+              <div style="height: 150px;" class="feedback">
+                <div style="background: orange;"  class="feedback_mark">Отзыв</div>
+                <div class="feedback_person"><img src="./img/feedback.png" alt=""> <span>Павел Титов</span></div> 
+                <div class="feedback_body">Хороший специалист,
+                 помог реализовать мою задумку.</div>
+              </div>
+              <div style="height: 170px;" class="feedback">
+                <div style="background: red;"  class="feedback_mark">Отзыв</div>
+                <div class="feedback_person"><img src="./img/feedback.png" alt=""> <span>Леонид Захаров</span></div>
+                <div class="feedback_body">Вадим быстро выполнил мой заказ, все качественно и красиво.</div>
+              </div>
+              <div  style="height: 180px;" class="feedback">
+                <div style="background: blue;"  class="feedback_mark">Отзыв</div>
+                <div class="feedback_person"><img src="./img/feedback.png" alt=""> <span>Тимофей Попов</span></div> 
+                <div class="feedback_body">При заказе появились проблемы с оплатой, быстро решили и Вадим сразу приступил к работе.</div>
+              </div>
+          
+              <div style="height: 190px;" class="feedback">
+                <div style="background: green;" class="feedback_mark">Отзыв</div>
+                <div class="feedback_person"><img src="./img/feedback.png" alt=""> <span>Сергей Гаврилин</span></div> 
+                <div class="feedback_body">Был дан сложный заказ Вадим быстро справился и отправил файл с веб приложением. </div>
+              </div>
+            </div>
+
+            <div class="works">
+              <div class="slider">
+                <button id="slider_left"><img src="./img/slider/arrow.png" alt=""></button>
+                <div class="slider_content">
+                  <img id="slider-img" src="./img/slider/dragon.png" alt="">
+                  <h2 id="slider-heading">Dragon Kombat</h2>
+                  <p id="slider-title">Прототип Hamster Kombat. Тапаем и зарабатываем DRGN Coins</p>
+                  <p><a id="slider-link" href="https://vadim20122024.github.io/dragoncombat/">Ссылка на веб-приложение</a></p>
+                  <p><a id="slider-repo" href="https://github.com/Vadim20122024/dragoncombat">Ссылка на GitHub репозиторий</a></p>
+                </div>
+                <button id="slider_right"><img src="./img/slider/arrow.png" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+  
+
+      </main>
+
+    
+    </div>
+
+    <footer id="footer">
+       <div class="footer_left-side">
+        <p class="footer-email">vadik.bolotnickoff@yandex.ru</p>
+        <p class="footer-number">+7 (905)460-34-08</p>
+       </div>
+       <div class="footer_right-side">
+        <a href="https://web.telegram.org/k/#@Sourse878">
+          <div><img src="./img/icons/tme.png" alt=""></div>
+        </a>
+
+        <a href="https://wa.me/79054603408" target="_blank">
+          <div><img src="./img/icons/wa.png" alt=""></div>
+        </a>
+
+        <a href="">
+          <div><img src="./img/icons/in.png" alt=""></div>
+        </a>
+       </div>
+    </footer>
+    <div class="footer-copyright"> Vadim Bolotnikov &copy; 2025 All rights reserved</div>
+
+
+  
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
