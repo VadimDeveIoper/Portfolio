@@ -29,20 +29,20 @@ const data = [{
 {
   name:'Game Shop',
   title:'Магазин для покупки виртуальных вещей в игре. Есть несколько промокодов которые снижают цену',
-  link:'https://vadim20122024.github.io/dragoncombat/',
+  link:'https://vadim20122024.github.io/GameShop/',
   repo:'https://github.com/Vadim20122024/GameShop',
   img:'./img/slider/GameShop.png'
 },
 {
   name:'Exchange',
   title:'Можно перевести любую валюту на другую',
-  link:'https://vadim20122024.github.io/dragoncombat/',
+  link:'https://vadim20122024.github.io/Exchange/',
   repo:'https://github.com/Vadim20122024/Exchange',
   img:'./img/slider/exchange.png'
 },{
   name:'Timer',
   title:'Таймер.',
-  link:'https://vadim20122024.github.io/dragoncombat/',
+  link:'https://vadim20122024.github.io/Timer/',
   repo:'https://github.com/Vadim20122024/Timer',
   img:'./img/slider/timer.png'
 },];

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --main-color:blue;
     --bg-color:black;
@@ -47,9 +49,11 @@ body{
 header{
     display:flex;
     width: 100%;
-    height: 50%;
-    justify-content: center;
+    height: 60px;
+    color: white;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 nav{
@@ -92,6 +96,21 @@ nav{
 .bio-github{
     font-family: Arial;
     font-size: 1.2rem;
+}
+
+.github{
+    & img{
+        width: 30px;
+    }
+}
+
+.logo{
+    font-family: var(--main-font);
+    font-size: 24px;
+    color: white;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .bio-cv-download{
@@ -163,6 +182,12 @@ nav{
     width: 500px;
     height: 500px;
     position: relative;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#card-3{
+    font-size: 14px;
 }
 
 .case-card{
@@ -636,6 +661,25 @@ footer{
         align-items: center;
     }
 
+    .slider{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    @media screen and (max-width:560px){
+        .slider{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        #slider_img{
+            width: 15px;
+        }
+    }
 
 
 }
